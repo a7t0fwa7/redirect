@@ -2,7 +2,6 @@
 FROM golang:alpine AS build-env
 COPY . /go/src/github.com/polyverse/redirect
 WORKDIR /go/src/github.com/polyverse/redirect
-RUN ls -trlR
 RUN GOOS=linux CGO_ENABLED=0 go build 
 
 # final stage
