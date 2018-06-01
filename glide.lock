@@ -1,0 +1,17 @@
+hash: 797ca803dc7831bc911b3e1429dd7c55e92621b0fed23b740fd2943c2f3ce315
+updated: 2018-06-01T12:28:33.016699-07:00
+imports:
+- name: github.com/polyverse/appconfig
+  version: 7e42c882c782785ef26e933d9406cc04a2ea3248
+- name: github.com/sirupsen/logrus
+  version: c155da19408a8799da419ed3eeb0cb5db0ad5dbc
+- name: golang.org/x/crypto
+  version: 5ba7f63082460102a45837dbd1827e10f9479ac0
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 8dbc5d05d6edcc104950cc299a1ce6641235bc86
+  subpackages:
+  - unix
+  - windows
+testImports: []

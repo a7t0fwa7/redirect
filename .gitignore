@@ -5,6 +5,9 @@
 *.so
 *.dylib
 
+# Generated binary
+redirect
+
 # Test binary, build with `go test -c`
 *.test
 

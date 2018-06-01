@@ -1,0 +1,19 @@
+{
+  "proxy": {
+    "debug":false,
+    "proxy-addr":":80",
+    "remote_addr":"http://localhost:8080",
+    "statsd_addr":"localhost:8125",
+    "ProxyRules":{
+      "/(.*?)": {
+        "ScriptFile":"js/proxy.js",
+        "RequestHandler":"RequestHandler(httpRequest)",
+        "ResponseHandler":"ResponseHandler(httpResponse)"
+      }
+    }
+  },
+  "example": {
+    "debug":false,
+    "statsd_addr":"localhost:8126"
+  }
+}

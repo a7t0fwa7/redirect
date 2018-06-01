@@ -1,0 +1,4 @@
+package: github.com/polyverse/redirect
+import:
+- package: github.com/sirupsen/logrus
+- package: github.com/polyverse/appconfig
