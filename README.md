@@ -1,3 +1,15 @@
+# DEPRECATION NOTICE
+
+Please note that this repository has been deprecated and is no longer actively maintained by Polyverse Corporation.  It may be removed in the future, but for now remains public for the benefit of any users.
+
+Importantly, as the repository has not been maintained, it may contain unpatched security issues and other critical issues.  Use at your own risk.
+
+While it is not maintained, we would graciously consider any pull requests in accordance with our Individual Contributor License Agreement.  https://github.com/polyverse/contributor-license-agreement
+
+For any other issues, please feel free to contact info@polyverse.com
+
+---
+
 # polyverse-security/redirect
 
 Listen to a http or https port and redirect ("HTTP/1.1 301 Moved Permanently") to '&lt;scheme&gt;://&lt;host&gt;' while preserving the path and query string.
